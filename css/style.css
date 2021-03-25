@@ -261,7 +261,7 @@ body{
   margin-right: 70px !important;
 }
 .overlay {
-    height: 60vh;
+    height: 80vh !important;
 
 }
 
@@ -285,8 +285,11 @@ body{
         margin-left: 48% !important;
     } */
     .overlay-y {
-        height: 100%;
+        height: 100%
     } 
+    .overlay{
+        height: 100vh !important;
+    }
     .team-item.tb-effect{
         margin-left: 20% !important;
     }
@@ -295,7 +298,7 @@ body{
     }
     .pd-y {
         padding: 35px !important;
-        padding-top: 10vh !important;
+        padding-top: 30vh !important;
         margin-left: 0% !important;
         width: 100% !important;
     }
@@ -346,7 +349,7 @@ body{
     /* background-image: url("../image/images/background/background1.webp"); */
      background-image: url("../image/shop.jpg");
 
-    height: 45vw;
+    height: 100vh !important;
     background-size: cover;
     background-attachment: fixed;
 
