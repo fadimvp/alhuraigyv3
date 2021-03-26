@@ -845,3 +845,9 @@ overflow: hidden;
     text-transform: uppercase;
     padding: 40px 0;
 }
+@media screen and (max-width:1025px ){
+    .form-name-email input{
+        width: 96% !important;
+    }
+
+}

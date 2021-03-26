@@ -138,17 +138,24 @@ body{
         display: none;
     }
 
-
+@media screen  and (max-width:1354px){
+    .form-name-email input{
+        width: 97% !important;
+    }
+}
 @media screen and  (max-width:909px){
     .service-item{
         width: 90% !important;
     }
     .form-name-email input{
         
-        width: 96% !important;
+        width: 97% !important;
     }
     .home{
-        height: 60vh !important;
+        height: 80vh !important;
+    }
+    .header{
+        height: 65px;
     }
     .header .logo img {
         width: 170%;
@@ -204,21 +211,26 @@ body{
         display: block;
     }
     .nav {
-        display: none;
-        opacity: 0.4;
+        display: block;
+        opacity: 0.9;
         position: fixed;
         height: 100vh;
         width: 80% !important;
         float: left;
         list-style: none;
-        top: 40px;
-        right: 0;
-        background-color:gray !important;
+        top: 64px;
+        right: -720px;
+        background-color :#000 !important;
         z-index: 1;
         text-align: center !important;
         margin: auto !important;
+        transition: all .5s;
+        
 
         
+    }
+    .nav.show{
+        right: 0px;
     }
     .header .nav > li {
     
@@ -261,12 +273,35 @@ body{
   margin-right: 70px !important;
 }
 .overlay {
-    height: 80vh !important;
+    height: 100vh !important;
 
 }
 
 }
 @media screen and (max-width:400px){
+    .nav {
+        display: block;
+        opacity: 0.8;
+        position: fixed;
+        height: 100vh;
+        width: 100% !important;
+        float: left;
+        list-style: none;
+        top: 65px;
+        right: -500;
+        background-color:#000!important;
+        z-index: 1;
+        text-align: center !important;
+        margin: auto !important;
+        transition: all .5s;
+        
+
+        
+    }
+    .nav.show{
+
+        right: 0px;
+    }
     .section-headr .line {
         margin: 0 0 44px 110px !important;
         }
@@ -341,6 +376,7 @@ body{
     .team-item.mg{
         margin:  15px 0 !important;
     }
+
 }
 /* home section*/
 
@@ -926,7 +962,7 @@ visibility: hidden;
     opacity: 1;
 }
 .team-item.tb-effect{
-    z-index: 1;
+    z-index: 0;
 }
  .team-item:hover .team-info-title{
      color: #fff;
