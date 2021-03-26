@@ -3,39 +3,58 @@
         <meta charset="utf_8">
         <meta name="keywords" content="">
         <meta name="description" content="">
-        <link  rel="stylesheet" href="css/about.css">
+        <link  rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" ></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+        <script>
+            $(document).ready(function(){
+                $('#icon1').click(function(){
+                    $('.nav').toggleClass('show');
+
+                });
+
+            });
+        </script>
+
         <title> Html  Css Template</title>
 
     </head>
     <body>
-<div class="header">
-
-        <div class="container">
-                <div class="logo">
-                    <img src="image/logo 4.png">
+        <div class="header">
+        
+                <div class="container">
+                        <div class="logo">
+                            <img src="image/logo 4.png">
+                        </div>
+                        <ul class="nav"> 
+                            <li><a href="" class="">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <!-- <li><a href="#">Protfolio</a></li>
+                            <li><a href="#">Servies</a></li> -->
+                            <!-- <li><a href="#">prices </a></li> -->
+                            <!-- <li><a href="#">Team </a></li> -->
+                            <!-- <li class="dropdown">
+                                <a href="#">Blog </a> -->
+                                <!-- <ul class="dorp-menu">
+                                    <li><a href="blog.html" target="_blank"> blog post</a> </li>
+                                    
+                                </ul> -->
+        
+                            <!-- </li> -->
+        
+                            <li><a href="contact.html" target="_self">Contact</a></li>
+                        
+        
+        
+                        </ul>
+                        <label id="icon1">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                      <!-- <div class="clear"></div> -->
                 </div>
-                <ul class="nav"> 
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <!-- <li><a href="#">Protfolio</a></li>
-                    <li><a href="#">Servies</a></li> -->
-                    <!-- <li><a href="#">prices </a></li> -->
-                    <!-- <li><a href="#">Team </a></li> -->
-                    <!-- <li class="dropdown">
-                        <a href="#">Blog </a> -->
-                        <!-- <ul class="dorp-menu">
-                            <li><a href="blog.html" target="_blank"> blog post</a> </li>
-                            
-                        </ul> -->
-
-                    <!-- </li> -->
-
-                    <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <div class="clear"></div>
         </div>
-</div>
+        
 
 <!-- <div class="home">
         <div class="overlay">

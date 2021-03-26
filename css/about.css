@@ -845,6 +845,21 @@ overflow: hidden;
     text-transform: uppercase;
     padding: 40px 0;
 }
+.container #icon1{
+    color: red;
+    font-size: 20px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+    .container #icon1{
+        margin-top: 20px;
+        display: none;
+    }
 @media screen and (max-width:1025px ){
     .form-name-email input{
         width: 96% !important;

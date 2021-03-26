@@ -144,6 +144,21 @@ body{
     }
 }
 @media screen and  (max-width:909px){
+    .form-custom{
+        width: 100% !important;
+    }
+    .from-content{
+        margin-left: -87px !important;
+    }
+    .form-item {
+        float: left;
+        width: 60% !important;
+    }
+    .form-form {
+        margin-right: 69px;
+        width: 110%;
+        margin-left: -89px;
+    }
     .service-item{
         width: 90% !important;
     }
@@ -279,6 +294,21 @@ body{
 
 }
 @media screen and (max-width:400px){
+    .form-custom{
+        width: 100% !important;
+    }
+    .from-content{
+        margin-left: -87px !important;
+    }
+    .form-item {
+        float: left;
+        width: 60% !important;
+    }
+    .form-form {
+        margin-right: 69px;
+        width: 110%;
+        margin-left: -89px;
+    }
     .nav {
         display: block;
         opacity: 0.8;
