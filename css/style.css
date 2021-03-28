@@ -144,11 +144,25 @@ body{
     }
 }
 @media screen and  (max-width:909px){
+    .blog-info {
+        padding: 10px 16;
+    }
+   
+    .blog-content{
+        margin-left: 2% !important;
+    }
     .form-custom{
         width: 100% !important;
     }
     .blog-item{
         width: 85% !important;
+        margin: 0 5% !important;
+    }
+    .blog-item.mg{
+ 
+        margin-top:  5% !important;
+
+        margin-bottom:  5% !important;
     }
     .from-content{
         margin-left: -87px !important;
@@ -163,7 +177,7 @@ body{
         margin-left: -89px;
     }
     .service-item{
-        width: 90% !important;
+        width: 98% !important;
     }
     .form-name-email input{
         
@@ -215,7 +229,7 @@ body{
         
             float: left;
             width: 80% !important;
-            margin: 8px;
+            margin: 22px;
             text-align: center !important; 
             padding: 5px 6px !important;
             border: 1px solid #e8e8e8;
@@ -289,14 +303,30 @@ body{
 }
 .section-headr .section-title{
   margin-right: 70px !important;
+  width: 100% !important;
+
 }
 .overlay {
     height: 100vh !important;
 
 }
+.footer-links li a {
+    margin-bottom: 15px !important;
+  }
 
 }
 @media screen and (max-width:400px){
+    .footer-links li a {
+      margin-bottom: 15px !important;
+    }
+    .blog-info {
+        padding: 10px 10px !important;
+    }
+    .section-headr .section-title{
+        margin-left: 4px !important;
+        width: 100% !important;
+      
+      }
     .blog-item{
         width: 85% !important;
     }
