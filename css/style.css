@@ -147,6 +147,9 @@ body{
     .form-custom{
         width: 100% !important;
     }
+    .blog-item{
+        width: 85% !important;
+    }
     .from-content{
         margin-left: -87px !important;
     }
@@ -294,6 +297,9 @@ body{
 
 }
 @media screen and (max-width:400px){
+    .blog-item{
+        width: 85% !important;
+    }
     .form-custom{
         width: 100% !important;
     }
@@ -363,7 +369,7 @@ body{
     }
     .pd-y {
         padding: 35px !important;
-        padding-top: 30vh !important;
+        padding-top: 10vh !important;
         margin-left: 0% !important;
         width: 100% !important;
     }
@@ -925,12 +931,12 @@ margin:  5px 0;
 /* our team*/
 
 .team{
-padding: 120px 90px;
+padding: 120px 100px;
 }
 
 .team-content{
     overflow: hidden;
-    width: 110%;
+    width: 100%;
 }
 .team-item{
     width: 30%;
@@ -1008,7 +1014,7 @@ visibility: hidden;
  }
  .blog-content{
      overflow: hidden;
-     width: 115%;
+     width: 100%;
  }
  .blog-item{
      width: 30%;
@@ -1059,7 +1065,7 @@ visibility: hidden;
 
 }
 .from-content{
-    width: 80%;
+    width: 89%;
     margin: auto;
 }
 .form-icon{
@@ -1082,11 +1088,12 @@ overflow: hidden;
 }
 .form-item{
     float: left;
-    width: 30%;
+    width: 33% !important;
 }
 .form-form{
     margin-right: 100px;
     width: 90%;
+    margin-left: 5% !important;
 }
 .form-name-email{
    width: 100%;
