@@ -147,318 +147,6 @@ body{
         margin-left: 20% !important;
         width: 70% !important;
     }
-    
-  
-@media screen  and (max-width:1354px){
-    .form-name-email input{
-        width: 97% !important;
-    }
-}
-@media screen and  (max-width:909px){
-    .blog-info {
-        padding: 10px 16;
-    }
-   
-    .blog-content{
-        margin-left: 2% !important;
-    }
-    .form-custom{
-        width: 100% !important;
-    }
-    .blog-item{
-        width: 85% !important;
-        margin: 0 5% !important;
-    }
-    .blog-item.mg{
- 
-        margin-top:  5% !important;
-
-        margin-bottom:  5% !important;
-    }
-    .from-content{
-        margin-left: -87px !important;
-    }
-    .form-item {
-        float: left;
-        width: 60% !important;
-    }
-    .form-form {
-        margin-right: 69px;
-        width: 110%;
-        margin-left: -89px;
-    }
-    .service-item{
-        width: 98% !important;
-    }
-    .form-name-email input{
-        
-        width: 97% !important;
-    }
-    .home{
-        height: 80vh !important;
-    }
-    .header{
-        height: 65px;
-    }
-    .header .logo img {
-        width: 170%;
-    } 
-     .team-item.tb-effect{
-        margin-left: 20% ;
-    } 
-    .team-item.tb-effect.mg{
-        margin-left: 20% !important; 
-    }
-    .team {
-        padding:100px 40px !important;
-    } 
-    .about-item.mg {
-        margin: 0 0% !important;
-        margin-left: 9% !important;
-        width: 80%;
-    }
-    .offer-item {
-        width: 73% !important;
-        font-size: 14px !important;
-        padding: 30px 5px 27px 30px !important;
-        overflow-wrap: break-word;
-        margin-left: 15% !important;
-
-
-    }
-    
-    
-    .offer-item.mg{
-    margin: 0 0 !important;
-    margin-left: 15% !important;
-    margin-top: 22px !important;
-
-
-    }
-    
-    .about-item{
-        
-            float: left;
-            width: 80% !important;
-            margin: 22px;
-            text-align: center !important; 
-            padding: 5px 6px !important;
-            border: 1px solid #e8e8e8;
-            font-size: 12px !important;
-            min-width: 32% !important;
-            margin-left: 9% !important;
-             margin-top: 22px !important;
-    }
-    .container #icon1{
-        margin-top: 20px;
-        display: block;
-    }
-    .nav {
-        display: block;
-        opacity: 0.9;
-        position: fixed;
-        height: 100vh;
-        width: 80% !important;
-        float: left;
-        list-style: none;
-        top: 64px;
-        right: -720px;
-        background-color :#000 !important;
-        z-index: 1;
-        text-align: center !important;
-        margin: auto !important;
-        transition: all .5s;
-        
-
-        
-    }
-    .nav.show{
-        right: 0px;
-    }
-    .header .nav > li {
-    
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    .header .nav >li  >a{
-        color:white !important;
-    }
-    .home .title {
-        margin-top: 25px;
-        color: rgb(160, 165, 170);
-        font-size: 2rem !important;
-        text-transform: uppercase;
-    }
-    .home .home-desc {
-        color: aliceblue;
-        margin: 15px 0;
-        font-size: 15px;
-        letter-spacing: -1px;
-        line-height: 1.5;
-        text-align: justify;
-        margin-left: 20% !important;
-}
-.home .home-content{
-    top :55% imp !important ;
-    width: 100%  !important;
-    margin: 130px 0 !important;
-}
-.pd-y{
-    padding: 37px !important;
-    padding-top: 10vh !important;
-}
-.team-item.mg{
-    margin: 15px 10 !important ;
-}
-.team-item{
-    width: 55% !important;
-    margin: 15px 10px;
-}
-.section-headr .section-title{
-  margin-right: 70px !important;
-  width: 100% !important;
-
-}
-.overlay {
-    height: 100vh !important;
-
-}
-.footer-links li a {
-    margin-bottom: 15px !important;
-  }
-
-}
-@media screen and (max-width:400px){
-    .footer-links li a {
-      margin-bottom: 15px !important;
-    }
-    .blog-info {
-        padding: 10px 10px !important;
-    }
-    .section-headr .section-title{
-        margin-left: 4px !important;
-        width: 100% !important;
-      
-      }
-    .blog-item{
-        width: 85% !important;
-    }
-    .form-custom{
-        width: 100% !important;
-    }
-    .from-content{
-        margin-left: -87px !important;
-    }
-    .form-item {
-        float: left;
-        width: 60% !important;
-    }
-    .form-form {
-        margin-right: 69px;
-        width: 110%;
-        margin-left: -89px;
-    }
-    .nav {
-        display: block;
-        opacity: 0.8;
-        position: fixed;
-        height: 100vh;
-        width: 100% !important;
-        float: left;
-        list-style: none;
-        top: 65px;
-        right: -500;
-        background-color:#000!important;
-        z-index: 1;
-        text-align: center !important;
-        margin: auto !important;
-        transition: all .5s;
-        
-
-        
-    }
-    .nav.show{
-
-        right: 0px;
-    }
-    .section-headr .line {
-        margin: 0 0 44px 110px !important;
-        }
-    .team {
-        padding: 120px 10px !important;
-    }
-    
-    .service-item{
-        width: 90% !important;
-    }
-    .section-headr .section-title{
-        margin-left: 66px;
-    }
-    
-    .portfolio-item img {
-        margin-left: 48% !important;
-    } */
-    .overlay-y {
-        height: 100%
-    } 
-    .overlay{
-        height: 100vh !important;
-    }
-    .team-item.tb-effect{
-        margin-left: 20% !important;
-    }
-    .team-item.tb-effect.mg{
-        margin-left: 20% !important;
-    }
-    .pd-y {
-        padding: 35px !important;
-        padding-top: 10vh !important;
-        margin-left: 0% !important;
-        width: 100% !important;
-    }
-    .about-item.mg{
-        max-width: 0px 0%;
-    }
-    .about-item-title{
-        font-size: 17px;
-    }
-    .about-item {
-        margin: 18px 0%;
-        float: left;
-        width: 69% !important;
-        text-align: center !important;
-        padding: 14px 6px !important;
-        border: 1px solid #e8e8e8;
-        font-size: 12px !important;
-        overflow-wrap: break-word;
-
-    }
-    .portfolio-item {
-        width: 61% !important;
-    }
-    .section-headr .section-title{
-        margin-right: 100px;
-    }
-    .offer-item {
-        width: 73% !important;
-        font-size:12px !important;
-        padding: 30px 5px 27px 30px !important;
-        overflow-wrap: break-word;
-    }
-    
-    
-    .team-item{
-        width: 60% !important;
-        margin:  15px 0 !important;
-
-    }
-    .team-item.mg{
-        margin:  15px 0 !important;
-    }
-
-}
-/* home section*/
 
 .home{
     position: relative;
@@ -1147,7 +835,7 @@ overflow: hidden;
 .form-form{
     margin-right: 100px;
     width: 90%;
-    margin-left: 5% !important;
+    margin-left: 5% ;
 }
 .form-name-email{
    width: 100%;
@@ -1208,3 +896,315 @@ overflow: hidden;
     text-transform: uppercase;
     padding: 40px 0;
 }
+
+    
+  
+@media screen  and (max-width:1354px){
+    .form-name-email input{
+        width: 97% !important;
+    }
+}
+@media screen and  (max-width:909px){
+    .blog-info {
+        padding: 10px 16;
+    }
+   
+    .blog-content{
+        margin-left: 2% !important;
+    }
+    .form-custom{
+        width: 100% !important;
+    }
+    .blog-item{
+        width: 85% !important;
+        margin: 0 5% !important;
+    }
+    .blog-item.mg{
+ 
+        margin-top:  5% !important;
+
+        margin-bottom:  5% !important;
+    }
+    .from-content{
+        margin-left: -87px !important;
+    }
+    .form-item {
+        float: left;
+        width: 60% !important;
+    }
+    .form-form {
+        margin-right: 69px;
+        width: 110%;
+        margin-left: -89px;
+    }
+    .service-item{
+        width: 98% !important;
+    }
+    .form-name-email input{
+        
+        width: 97% !important;
+    }
+    .home{
+        height: 80vh !important;
+    }
+    .header{
+        height: 65px;
+    }
+    .header .logo img {
+        width: 170%;
+    } 
+     .team-item.tb-effect{
+        margin-left: 20% ;
+    } 
+    .team-item.tb-effect.mg{
+        margin-left: 20% !important; 
+    }
+    .team {
+        padding:100px 40px !important;
+    } 
+    .about-item.mg {
+        margin: 0 0% !important;
+        margin-left: 9% !important;
+        width: 80%;
+    }
+    .offer-item {
+        width: 73% !important;
+        font-size: 14px !important;
+        padding: 30px 5px 27px 30px !important;
+        overflow-wrap: break-word;
+        margin-left: 15% !important;
+
+
+    }
+    
+    
+    .offer-item.mg{
+    margin: 0 0 !important;
+    margin-left: 15% !important;
+    margin-top: 22px !important;
+
+
+    }
+    
+    .about-item{
+        
+            float: left;
+            width: 80% !important;
+            margin: 22px;
+            text-align: center !important; 
+            padding: 5px 6px !important;
+            border: 1px solid #e8e8e8;
+            font-size: 12px !important;
+            min-width: 32% !important;
+            margin-left: 9% !important;
+             margin-top: 22px !important;
+    }
+    .container #icon1{
+        margin-top: 20px;
+        display: block;
+    }
+    .nav {
+        display: block;
+        opacity: 0.9;
+        position: fixed;
+        height: 100vh;
+        width: 80% !important;
+        float: left;
+        list-style: none;
+        top: 64px;
+        right: -720px;
+        background-color :#000 !important;
+        z-index: 1;
+        text-align: center !important;
+        margin: auto !important;
+        transition: all .5s;
+        
+
+        
+    }
+    .nav.show{
+        right: 0px;
+    }
+    .header .nav > li {
+    
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .header .nav >li  >a{
+        color:white !important;
+    }
+    .home .title {
+        margin-top: 25px;
+        color: rgb(160, 165, 170);
+        font-size: 2rem !important;
+        text-transform: uppercase;
+    }
+    .home .home-desc {
+        color: aliceblue;
+        margin: 15px 0;
+        font-size: 15px;
+        letter-spacing: -1px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 20% !important;
+}
+.home .home-content{
+    top :55% imp !important ;
+    width: 100%  !important;
+    margin: 130px 0 !important;
+}
+.pd-y{
+    padding: 37px !important;
+    padding-top: 10vh !important;
+}
+.team-item.mg{
+    margin: 15px 10 !important ;
+}
+.team-item{
+    width: 55% !important;
+    margin: 15px 10px;
+}
+.section-headr .section-title{
+  margin-right: 70px !important;
+  width: 100% !important;
+
+}
+.overlay {
+    height: 100vh !important;
+
+}
+.footer-links li a {
+    margin-bottom: 15px !important;
+  }
+
+}
+@media screen and (max-width:400px){
+    .footer-links li a {
+      margin-bottom: 15px !important;
+    }
+    .blog-info {
+        padding: 10px 10px !important;
+    }
+    .section-headr .section-title{
+        margin-left: 4px !important;
+        width: 100% !important;
+      
+      }
+    .blog-item{
+        width: 85% !important;
+    }
+    .form-custom{
+        width: 100% !important;
+    }
+    .from-content{
+        margin-left: -87px !important;
+    }
+    .form-item {
+        float: left;
+        width: 60% !important;
+    }
+    .form-form {
+        margin-right: 100px;
+        width: 90% !important;
+    }
+    .nav {
+        display: block;
+        opacity: 0.8;
+        position: fixed;
+        height: 100vh;
+        width: 100% !important;
+        float: left;
+        list-style: none;
+        top: 65px;
+        right: -500;
+        background-color:#000!important;
+        z-index: 1;
+        text-align: center !important;
+        margin: auto !important;
+        transition: all .5s;
+        
+
+        
+    }
+    .nav.show{
+
+        right: 0px;
+    }
+    .section-headr .line {
+        margin: 0 0 44px 110px !important;
+        }
+    .team {
+        padding: 120px 10px !important;
+    }
+    
+    .service-item{
+        width: 90% !important;
+    }
+    .section-headr .section-title{
+        margin-left: 66px;
+    }
+    
+    .portfolio-item img {
+        margin-left: 48% !important;
+    } */
+    .overlay-y {
+        height: 100%
+    } 
+    .overlay{
+        height: 100vh !important;
+    }
+    .team-item.tb-effect{
+        margin-left: 20% !important;
+    }
+    .team-item.tb-effect.mg{
+        margin-left: 20% !important;
+    }
+    .pd-y {
+        padding: 35px !important;
+        padding-top: 10vh !important;
+        margin-left: 0% !important;
+        width: 100% !important;
+    }
+    .about-item.mg{
+        max-width: 0px 0%;
+    }
+    .about-item-title{
+        font-size: 17px;
+    }
+    .about-item {
+        margin: 18px 0%;
+        float: left;
+        width: 69% !important;
+        text-align: center !important;
+        padding: 14px 6px !important;
+        border: 1px solid #e8e8e8;
+        font-size: 12px !important;
+        overflow-wrap: break-word;
+
+    }
+    .portfolio-item {
+        width: 61% !important;
+    }
+    .section-headr .section-title{
+        margin-right: 100px;
+    }
+    .offer-item {
+        width: 73% !important;
+        font-size:12px !important;
+        padding: 30px 5px 27px 30px !important;
+        overflow-wrap: break-word;
+    }
+    
+    
+    .team-item{
+        width: 60% !important;
+        margin:  15px 0 !important;
+
+    }
+    .team-item.mg{
+        margin:  15px 0 !important;
+    }
+
+}
+/* home section*/
