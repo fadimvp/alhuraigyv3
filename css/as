@@ -1,0 +1,38 @@
+Router#configure​ terminal
+Entering GE0/0 Interface: 
+Router(config)#interface​ gigabitEthernet 0/0
+Making Interface up: 
+Router(config-if)#no​ shutdown
+Assigning IP address from DHCP: # ip address dhcp
+Ping to Google DNS server: 
+Router#ping​ 8.8.8.8
+Entering GE0/1 Interface: 
+Router(config)#interface​ gigabitEthernet 0/1
+Assigning IP address : 
+Router(config-if)#ip​ address 192.168.2.1 255.255.255.0
+Making Interface up: 
+Router(config-if)#no​ shutdown
+Creating DHCP pool:
+First go to global configuration mode then
+Router(config)#ip​ dhcp pool mainuser
+Router(dhcp-config)#network​ 192.168.2.0 /24
+Router(dhcp-config)#default​-router 192.168.2.1
+Router(dhcp-config)#dns​-server 8.8.8.8
+Router(dhcp-config)#exit​
+Static Routing for default Gateway 
+Router(config)#ip​ route 0.0.0.0 0.0.0.0 192.168.1.1
+Configuring NAT Outside:
+Router(config)#interface​ gigabitEthernet 0/0
+Router(config-if)#ip​ nat outside
+Router(config-if)#exit​
+Configuring NAT inside:
+Router(config)#interface​ gigabitEthernet 0/1
+Router(config-if)#ip​ nat inside
+Router(config-if)#exit​
+Creating Access list:
+Router(config)#ip​ access-list standard 1
+Router(config-std-nacl)#permit​ any
+Router(config-std-nacl)#exit​
+Overloading IP NAT inside source to the interface gigabitEthernet 0/0:
+Router(config)#ip​ nat inside source list 1 interface gigabitEthernet 0/0 overload
+Router(config-if)#exit

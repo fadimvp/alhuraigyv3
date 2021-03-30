@@ -139,12 +139,12 @@ body{
     }
     .home .home-desc{
         color: aliceblue;
-        margin: 15px 0;
+        margin: auto;
         font-size: 15px;
-        letter-spacing: -1px;
+        letter-spacing: 0px;
         line-height: 1.5;
         text-align: justify;
-        margin-left: 20% !important;
+  
         width: 70% !important;
     }
 
@@ -176,7 +176,7 @@ body{
 }
 .home .home-desc{
     color: aliceblue;
-    margin: 15px 0;
+    margin: auto;
     font-size: 15px;
     letter-spacing: 0px;
     line-height: 1.5;
@@ -269,8 +269,8 @@ body{
     line-height: 1.6;
     color: #999;
     text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     word-spacing: 1px;
     word-break: break-all;
 
@@ -905,6 +905,11 @@ overflow: hidden;
     }
 }
 @media screen and  (max-width:909px){
+    .about-item {
+        width: 100%;
+  
+   
+  }
     .blog-info {
         padding: 10px 16;
     }
@@ -912,6 +917,7 @@ overflow: hidden;
     .blog-content{
         margin-left: 2% !important;
     }
+    
     .form-custom{
         width: 100% !important;
     }
@@ -964,15 +970,25 @@ overflow: hidden;
     } 
     .about-item.mg {
         margin: 0 0% !important;
-        margin-left: 9% !important;
-        width: 80%;
+        top: 12px;
+    
+        width: 100%;
+    }
+    .about-item-desc{
+        margin: 15px 5px 15px 5;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-item .icon{
+        margin: 40px;
     }
     .offer-item {
-        width: 73% !important;
+        width: 100% !important;
         font-size: 14px !important;
         padding: 30px 5px 27px 30px !important;
         overflow-wrap: break-word;
-        margin-left: 15% !important;
+        margin-left: 0% !important;
 
 
     }
@@ -980,7 +996,7 @@ overflow: hidden;
     
     .offer-item.mg{
     margin: 0 0 !important;
-    margin-left: 15% !important;
+    margin-left: 0% !important;
     margin-top: 22px !important;
 
 
@@ -989,15 +1005,17 @@ overflow: hidden;
     .about-item{
         
             float: left;
-            width: 80% !important;
-            margin: 22px;
+            width: 100% ;
             text-align: center !important; 
             padding: 5px 6px !important;
             border: 1px solid #e8e8e8;
             font-size: 12px !important;
             min-width: 32% !important;
-            margin-left: 9% !important;
-             margin-top: 22px !important;
+             margin-top: 22px ;
+    }
+    .about-item.mg {
+        width: 100% ;
+
     }
     .container #icon1{
         margin-top: 20px;
@@ -1047,7 +1065,7 @@ overflow: hidden;
         letter-spacing: -1px;
         line-height: 1.5;
         text-align: justify;
-        margin-left: 20% !important;
+        margin-left: 15% ;
 }
 .home .home-content{
     top :55% imp !important ;
@@ -1070,6 +1088,9 @@ overflow: hidden;
   width: 100% !important;
 
 }
+.home{
+    height: 100vh !important;
+}
 .overlay {
     height: 100vh !important;
 
@@ -1077,9 +1098,44 @@ overflow: hidden;
 .footer-links li a {
     margin-bottom: 15px !important;
   }
+  .portfolio-item {
+      width: 51%;
+      margin: 5% 5% 5% 4%;
+      padding: 20px;
+    }
+    .container #icon1 {
 
-}
+        margin-right: -7px;
+        padding-top: 7px;
+   
+       }
+       .portfolio-item img {
+           width: 200%;
+       }
+       .portfolio-item .layer-content {
+            width: 186%;
+
+       }
+    .portfolio-content {
+    }
+    
+
+  }
+  
+
+
+
 @media screen and (max-width:400px){
+    .home{
+        height: 100vh !important;
+    }
+    .home .home-desc{
+        margin-left: 15% !important;
+    }
+    .home .home-content {
+        top: 40%;
+
+    }
     .footer-links li a {
       margin-bottom: 15px !important;
     }
@@ -1162,7 +1218,7 @@ overflow: hidden;
     }
     .pd-y {
         padding: 35px !important;
-        padding-top: 10vh !important;
+        padding-top: 20vh !important;
         margin-left: 0% !important;
         width: 100% !important;
     }
@@ -1175,12 +1231,18 @@ overflow: hidden;
     .about-item {
         margin: 18px 0%;
         float: left;
-        width: 69% !important;
+        width: 100% !important;
         text-align: center !important;
         padding: 14px 6px !important;
         border: 1px solid #e8e8e8;
         font-size: 12px !important;
         overflow-wrap: break-word;
+        margin-top: 40px;
+
+    }
+    .about-item-desc {
+        padding-left: 20px;
+        padding-right: 20px;
 
     }
     .portfolio-item {
@@ -1205,6 +1267,25 @@ overflow: hidden;
     .team-item.mg{
         margin:  15px 0 !important;
     }
+    .container #icon1 {
+
+     margin-right: -7px;
+     padding-top: 7px;
+
+    }
+    .header .logo img{
+        margin-top: 12px;
+        
+            width: 200%;
+        } 
+        .portfolio-item img {
+            margin-left: -15% !important;
+        }
+        .portfolio-item .layer-content {
+            width: 156%;
+        }
+        
+     
 
 }
 /* home section*/
