@@ -1,4 +1,7 @@
 /* common */
+.pd-yy{
+    padding: 5px;
+}
 .overlay{
     position: absolute;
     width: 100%;
@@ -441,7 +444,7 @@ body{
 }
 .service{
     background-color: #f9f9f9;
-    margin-top: 80px;
+    margin-top: 10px;
 
 }
 .service-item{
@@ -920,6 +923,7 @@ overflow: hidden;
     
     .form-custom{
         width: 100% !important;
+        margin-left: 63px;
     }
     .blog-item{
         width: 85% !important;
