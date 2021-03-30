@@ -959,12 +959,7 @@ overflow: hidden;
     .header .logo img {
         width: 170%;
     } 
-     .team-item.tb-effect{
-        margin-left: 20% ;
-    } 
-    .team-item.tb-effect.mg{
-        margin-left: 20% !important; 
-    }
+    
     .team {
         padding:100px 40px !important;
     } 
@@ -1116,6 +1111,17 @@ overflow: hidden;
             width: 186%;
 
        }
+       .team-item.tb-effect{
+
+        margin-left: 10px;
+       }
+       .team-item.tb-effect.mg{
+           margin-left: 10px;
+       }
+       .team-content {
+        overflow: hidden;
+        width: 170%;
+    }
     .portfolio-content {
     }
     
@@ -1211,11 +1217,12 @@ overflow: hidden;
         height: 100vh !important;
     }
     .team-item.tb-effect{
-        margin-left: 20% !important;
-    }
-    .team-item.tb-effect.mg{
-        margin-left: 20% !important;
-    }
+
+        margin-left: 10px;
+       }
+       .team-item.tb-effect.mg{
+           margin-left: 10px;
+       }
     .pd-y {
         padding: 35px !important;
         padding-top: 20vh !important;
@@ -1283,6 +1290,11 @@ overflow: hidden;
         }
         .portfolio-item .layer-content {
             width: 156%;
+        }
+        .offer-content {
+            overflow: hidden;
+            margin-left: 5%;
+            width: 130%;
         }
         
      
