@@ -1120,7 +1120,11 @@ overflow: hidden;
        }
        .team-content {
         overflow: hidden;
-        width: 170%;
+        width: 100%;
+    }
+    .team-item {
+
+  width: 100%;
     }
     .portfolio-content {
     }
