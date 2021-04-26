@@ -247,7 +247,7 @@ body{
     float: left;
     width: 30%;
     text-align: center;
-    padding: 50px 20px;
+    padding: 2px 10px;
     border: 1px solid #e8e8e8;
 }
 .about-item.mg{
@@ -258,12 +258,13 @@ body{
     margin-bottom:10 px; 
     margin-bottom: 50px;
 }
-}
+
 .about-item-title{
     width: 97%;
     margin-bottom: 12px;
     text-transform: uppercase;
     transition: color 2s;
+    margin-top: 25px;
 }
 .about-item:hover .about-item-title{
     color: #e8e8e8;
@@ -674,7 +675,10 @@ margin:  5px 0;
     line-height: 1.5;
 }
 /* our team*/
-
+.icon-our{
+    width: 100%;
+    margin-top: 10px;
+}
 .team{
 padding: 120px 100px;
 }
@@ -896,6 +900,8 @@ overflow: hidden;
 .copy-right{
     color: #999;
     font-size: 15px;
+
+
     text-transform: uppercase;
     padding: 40px 0;
 }
@@ -908,8 +914,13 @@ overflow: hidden;
     }
 }
 @media screen and  (max-width:909px){
+    icon-our{
+        width: 100%;
+        margin-top: 0px;
+    }
     .about-item {
         width: 100%;
+        padding: 4px 4px;
   
    
   }
@@ -1140,6 +1151,10 @@ overflow: hidden;
 
 
 @media screen and (max-width:400px){
+    .icon-our{
+        width: 100%;
+        margin-top: 0px;
+    }
     .home{
         height: 100vh !important;
     }
@@ -1163,6 +1178,7 @@ overflow: hidden;
       }
     .blog-item{
         width: 85% !important;
+        padding: 4px 4px;
     }
     .form-custom{
         width: 100% !important;
@@ -1248,7 +1264,7 @@ overflow: hidden;
         float: left;
         width: 100% !important;
         text-align: center !important;
-        padding: 14px 6px !important;
+        padding: 0px 6px !important;
         border: 1px solid #e8e8e8;
         font-size: 12px !important;
         overflow-wrap: break-word;
