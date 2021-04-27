@@ -937,7 +937,7 @@ overflow: hidden;
         margin-left: 63px;
     }
     .blog-item{
-        width: 85% !important;
+        width: 100% !important;
         margin: 0 5% !important;
     }
     .blog-item.mg{
@@ -1283,7 +1283,7 @@ overflow: hidden;
         margin-right: 100px;
     }
     .offer-item {
-        width: 73% !important;
+        width: 100% !important;
         font-size:12px !important;
         padding: 30px 5px 27px 30px !important;
         overflow-wrap: break-word;
@@ -1291,7 +1291,7 @@ overflow: hidden;
     
     
     .team-item{
-        width: 60% !important;
+        width: 100% !important;
         margin:  15px 0 !important;
 
     }
@@ -1302,7 +1302,19 @@ overflow: hidden;
 
      margin-right: -7px;
      padding-top: 7px;
+    }
+     .pd-y {
 
+        padding: 8px !important;
+            padding-top: 8px;
+        padding-top: 20vh !important;
+        margin-left: 0% !important;
+        width: 100% !important;
+    
+    }
+    .pd-y {
+    
+        padding: 37px  !important;
     }
     .header .logo img{
         margin-top: 12px;
@@ -1313,12 +1325,12 @@ overflow: hidden;
             margin-left: -15% !important;
         }
         .portfolio-item .layer-content {
-            width: 156%;
+            width: 100%;
         }
         .offer-content {
             overflow: hidden;
-            margin-left: 5%;
-            width: 130%;
+            margin-left: -6%;
+            width: 113%;
         }
         
      
