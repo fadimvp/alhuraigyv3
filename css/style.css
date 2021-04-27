@@ -1383,6 +1383,8 @@ overflow: hidden;
     
 
   }
-  
+  .portfolio-content {
+    margin-left: -33px;
+}
 
 /* home section*/
