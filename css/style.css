@@ -1291,8 +1291,8 @@ overflow: hidden;
     
     
     .team-item{
-        width: 60% !important;
-        margin:  15px 0 !important;
+        width: 100% !important;
+        margin:  15px 3 !important;
 
     }
     .team-item.mg{
