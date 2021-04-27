@@ -1083,7 +1083,7 @@ overflow: hidden;
     margin: 130px 0 !important;
 }
 .pd-y{
-    padding: 37px !important;
+    padding: 5px !important;
     padding-top: 10vh !important;
 }
 .team-item.mg{
@@ -1247,12 +1247,6 @@ overflow: hidden;
        .team-item.tb-effect.mg{
            margin-left: 10px;
        }
-    .pd-y {
-        padding: 55px !important;
-        padding-top: 20vh !important;
-        margin-left: 0% !important;
-        width: 100% !important;
-    }
     .about-item.mg{
         max-width: 0px 0%;
     }
@@ -1325,7 +1319,7 @@ overflow: hidden;
             margin-left: -15% !important;
         }
         .portfolio-item .layer-content {
-            width: 100%;
+            width: 156%;
         }
         .offer-content {
             overflow: hidden;
